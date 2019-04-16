@@ -4,13 +4,29 @@
       <meta charset="UTF-8">
       <title>Avocado-Ethiopia</title>
    </head>
+   <style>
+      * {
+      box-sizing: border-box;
+      }
+      .column {
+      float: left;
+      width: 33.33%;
+      padding: 5px;
+      }
+      /* Clearfix (clear floats) */
+      .row::after {
+      content: "";
+      clear: both;
+      display: table;
+      }
+   </style>
    <body>
       <div>
          <a><img width="200" src="Logo avoEt.png"></a>
          <a> AVOCADO ETHIOPIA </a>
          <a><img width="200" src="Logo avoEt.png"></a>
       </div>
-     <!-- <div>
+      <div>
          <div class="row">
             <div class="column">
                <img width="200px"src="avo_farm image.jpg" alt="Avocado farm" style="width:100%">
@@ -30,6 +46,6 @@
          </div>
          <p>Avocado Ethiopia is a private limeted company.</p>
          <p>Avocado Ethiopia is a private limeted company.</p>
-      </div> -->
+      </div>
    </body>
 </html>
