@@ -12,12 +12,13 @@ content: "";
 clear: both;
 display: table;
 }
-P { 
-  text-align: center 
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 8cm;
+  
 }
-H2 { 
-  text-align: center 
-}
+
 body{
 background:green;
 }
