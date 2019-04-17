@@ -18,6 +18,9 @@ P.blocktext {
     width: 4cm;
   
 }
+H1 { 
+    text-align: center;
+}
 
 body{
 background:green;
