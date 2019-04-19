@@ -55,7 +55,7 @@ body{
 }
 
 
-.block-1 {
+.block-1{
     float: left ;
     width: 16%;
     padding: 5px;
@@ -63,7 +63,7 @@ body{
     border: 1px solid #ccc;
     margin: 2%;
 }
-.block-2 {
+.block-2{
     float: left ;
     width: 33.3%;
     padding: 20px;
@@ -72,7 +72,7 @@ body{
     margin-top: 100px;
 }
 
-.sm_icons {
+.sm_icons{
     float: left;
     width:25%;
     box-sizing: border-box;
