@@ -74,10 +74,10 @@ body{
 
 .sm_icons{
     float: left;
-    width:25%;
+    width:23%;
     box-sizing: border-box;
     margin:auto;
-    padding:20px;
+    padding:5px;
     align-content: center;
 }
 .clr{
