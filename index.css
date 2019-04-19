@@ -1,0 +1,67 @@
+
+.top_logo{
+    
+    background-color: yellow;
+    padding: 10PX;
+    align-content: center;
+}
+
+body{
+    background-color: darkgreen;
+    color:white;
+    font-family: Avenir;
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1.6em;
+    align-content: center;
+    margin: 0;
+    
+    
+}
+.guideImages{
+    align-content: flex-end;
+    background: darkcyan;
+    
+}
+.container{
+   
+    margin:auto;
+    padding: 0px;
+}
+
+.box-2 h1{
+    
+    font-family: Avenir;
+    font-weight:800px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.box-2{
+    text-align: center;
+    margin:40px;
+    padding: 40px;
+    
+    
+}
+ * {
+    box-sizing: border-box;
+  }
+
+.column {
+    float: left;
+    width: 20 %;
+    padding: 25px;
+    margin: 40px;
+    
+}
+
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+ 
