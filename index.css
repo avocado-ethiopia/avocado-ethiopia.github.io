@@ -1,69 +1,73 @@
-
-.top_logo{
-    
-    background-color: yellow;
-    padding: 10PX;
-    align-content: center;
-}
-
 body{
     background-color: darkgreen;
     color:white;
     font-family: Avenir;
-    font-size: 30px;
-    font-weight: normal;
+    font-size: 14px;
     line-height: 1.6em;
-    align-content: center;
-    margin: 0;
-    
-    
+    margin:20px;
 }
-.guideImages{
-    float:left;
-    Width:20%;
-    box-sizing:border-box;
-    background: darkcyan;
-    
-}
-.container{
-   
-    margin:auto;
-    padding: 0px;
-}
-
-.box-2 h1{
+.box-1 h1{
     
     font-family: Avenir;
     font-weight:800px;
+    font-size: 25;
     text-transform: capitalize;
     text-align: center;
 }
 
-.box-2{
+.box-1{
     text-align: center;
     margin:40px;
+    font-size: 20px;
     padding: 40px;
-    
+    background: darkcyan;
+}
+.box-2{
+    text-align: center;
+    margin:5px;
+    padding: 5px; 
+   
+}
+  
+
+.top_logo{
+    background-color: yellow;
+    align-content: center;
+    width: 100%;
+    padding-top: 10px;
     
 }
- * {
+
+.box-1 h1{
+    
+    font-family: Avenir;
+    font-weight:50px;
+    text-transform:uppercase;
+    text-align: center;
+}
+.box-2 h2{
+    
+    text-transform: uppercase;
+    font-family: Avenir;
+    
+    
+    text-align: center;
+}
+
+
+.block{
+    float: left ;
+    width: 20%;
+    padding: 10px;
     box-sizing: border-box;
-  }
-
-.column {
-    float: left;
-    width: 20 %;
-    padding: 25px;
-    margin: 40px;
-    
+    border: 1px solid #ccc;
 }
 
-  /* Clearfix (clear floats) */
-  .row::after {
-    content: "";
+.clr{
+    
     clear: both;
-    display: table;
-  }
+    
+}
 
 
  
