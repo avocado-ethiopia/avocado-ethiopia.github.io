@@ -5,6 +5,7 @@ body{
     font-size: 12px;
     line-height: 1.6em;
     margin:10px;
+    background-image: url(farm.png);
 }
 .box-1 h1{
     
