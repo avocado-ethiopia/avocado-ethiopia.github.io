@@ -76,7 +76,7 @@ body{
     float: left;
     width:25%;
     box-sizing: border-box;
-    margin:5px;
+    margin:auto;
     padding:20px;
     align-content: center;
 }
