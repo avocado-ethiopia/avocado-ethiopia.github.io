@@ -76,8 +76,8 @@ body{
     float: left;
     width:25%;
     box-sizing: border-box;
-    margin:auto;
-    padding: 20px;
+    margin:5px;
+    padding:20px;
     align-content: center;
 }
 .clr{
