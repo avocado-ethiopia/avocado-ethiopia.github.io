@@ -2,14 +2,14 @@ body{
     background-color: darkgreen;
     color:white;
     font-family: Avenir;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.6em;
-    margin:20px;
+    margin:10px;
 }
 .box-1 h1{
     
     font-family: Avenir;
-    font-weight:800px;
+    font-weight:40px;
     font-size: 25;
     text-transform: capitalize;
     text-align: center;
@@ -18,7 +18,7 @@ body{
 .box-1{
     text-align: center;
     margin:40px;
-    font-size: 20px;
+    font-size: 12px;
     padding: 40px;
     background: darkcyan;
 }
@@ -41,7 +41,7 @@ body{
 .box-1 h1{
     
     font-family: Avenir;
-    font-weight:50px;
+    font-weight:20px;
     text-transform:uppercase;
     text-align: center;
 }
