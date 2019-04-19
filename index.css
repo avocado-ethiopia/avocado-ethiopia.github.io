@@ -19,7 +19,9 @@ body{
     
 }
 .guideImages{
-    align-content: flex-end;
+    float:left;
+    Width:20%;
+    box-sizing:border-box;
     background: darkcyan;
     
 }
