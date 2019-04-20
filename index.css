@@ -10,6 +10,8 @@ body{
 .container{
     
     width: 85%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .box-1 h1{
@@ -124,7 +126,7 @@ body{
 #showcase{
     background-image: url(farm.jpg);
     align-content: center;
-    height: 300vh;
+    height: 250vh;
     background-position: center;
     background-size:cover;
     align-content: center;
