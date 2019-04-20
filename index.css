@@ -5,42 +5,42 @@ body{
     font-family: Avenir;
     font-size: 12px;
     line-height: 1.6em;
-    margin:0px;
-    width: auto;
+    margin:150px;
     
            
 }
 
-#showcase{
-    background-image: url( Images/farm.jpg);
-    height:100vh;
-    background-size: cover;
-    
-}
+
 .box-1 h1{
     
     font-family: Avenir;
-    font-weight:20px;
-    font-size: 14px;
-    text-transform: capitalize;
+    font-weight:15px;
+    font-size: 12px;
+    text-transform:uppercase;
     text-align: center;
 }
 
 .box-1{
     text-align: center;
-    margin:100px;
-    margin-left: 300px;
-    margin-right: 300px;
-    
-    
-    font-size: 12px;
+    margin: inherit;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 14px;
     padding: 40px;
     
+}
+.box-2 h2{
+    
+    text-transform: uppercase;
+    font-family: Avenir;
+    
+    
+    text-align: center;
 }
 
 .box-2{
     text-align: center;
-    margin:5px;
+    margin:inherit;
     padding: 5px; 
     
    
@@ -54,23 +54,12 @@ body{
     padding-top: 10px;
     
 }
+.clr{
+    
+    clear: both;
+    
+}
 
-.box-1 h1{
-    
-    font-family: Avenir;
-    font-weight:15px;
-    font-size: 12px;
-    text-transform:uppercase;
-    text-align: center;
-}
-.box-2 h2{
-    
-    text-transform: uppercase;
-    font-family: Avenir;
-    
-    
-    text-align: center;
-}
 
 
 .block-1 {
@@ -86,6 +75,7 @@ body{
 .block-2 {
     float: left ;
     width: 33.3%;
+   
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
@@ -100,6 +90,14 @@ body{
     padding:1px;
     align-content: center;
     margin-top: 70px;
+}
+#showcase{
+    background-image: url( Images/farm.jpg);
+    align-content: center
+    height: 100vh;
+    background-size:cover;
+    margin-top: 100px;
+    
 }
 .clr{
     
