@@ -24,8 +24,8 @@ body{
 .box-1{
     text-align: center;
     margin: inherit;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 14px;
     padding: 40px;
     background-color: black;
@@ -38,11 +38,13 @@ body{
     text-transform: uppercase;
     font-family: Avenir;
     text-align: center;
+    
 }
 
 .box-2{
     text-align: center;
-    margin:100px;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 5px; 
     
    
@@ -70,14 +72,12 @@ body{
     padding: 5px;
     box-sizing: border-box;
     border: 1px solid #ccc;
-    margin: 2%;
    
     
 }
 .block-2 {
     float: left ;
     width: 33.3%;
-   
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
