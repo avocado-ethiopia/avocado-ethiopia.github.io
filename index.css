@@ -14,7 +14,7 @@ body{
 .box-1 h1{
     
     font-family: Avenir;
-    font-weight:15px;
+    font-weight:14px;
     font-size: 12px;
     text-transform:uppercase;
     text-align: center;
@@ -35,8 +35,10 @@ body{
 }
 .box-2 h2{
     
-    text-transform: uppercase;
     font-family: Avenir;
+    font-weight:14px;
+    font-size: 12px;
+    text-transform:uppercase;
     text-align: center;
     
 }
@@ -58,13 +60,6 @@ body{
     padding-top: 10px;
     
 }
-.clr{
-    
-    clear: both;
-    
-}
-
-
 
 .block-1 {
     float: left ;
@@ -72,9 +67,6 @@ body{
     padding: 5px;
     box-sizing: border-box;
     border: 1px solid #ccc;
-    margin: inherit;
-    margin-left: 10%;
-    margin-right: 10%;
    
     
 }
@@ -84,9 +76,7 @@ body{
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
-    margin: inherit;
-    margin-left: 10%;
-    margin-right: 10%;
+  
     
     
 }
