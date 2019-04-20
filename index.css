@@ -51,8 +51,10 @@ body{
 }
 .box-3 h2{
     
-    text-transform: uppercase;
-    font-family: Avenir;
+   font-weight:15px;
+    font-size: 12px;
+    font-family: Tahoma;
+    text-transform:uppercase;
     text-align: center;
 }
 
