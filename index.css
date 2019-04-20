@@ -72,6 +72,9 @@ body{
     padding: 5px;
     box-sizing: border-box;
     border: 1px solid #ccc;
+    margin: inherit;
+    margin-left: 10%;
+    margin-right: 10%;
    
     
 }
@@ -81,6 +84,9 @@ body{
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
+    margin: inherit;
+    margin-left: 10%;
+    margin-right: 10%;
     
     
 }
