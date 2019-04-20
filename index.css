@@ -93,7 +93,7 @@ body{
 }
 #showcase{
     background-image: url( Images/farm.jpg);
-    align-content: center
+    align-content: center;
     height: 100vh;
     background-size:cover;
     margin-top: 100px;
