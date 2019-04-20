@@ -85,10 +85,9 @@ body{
 .sm_icons {
     float: left;
     width:25%;
-    box-sizing: border-box;
-
-    padding:1px;
+    padding:2px;
     align-content: center;
+    box-sizing: border-box;
     
 }
 #showcase{
