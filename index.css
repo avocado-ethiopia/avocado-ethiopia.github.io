@@ -1,3 +1,4 @@
+
 body{
     background-color: darkgreen;
     color:white;
@@ -5,12 +6,17 @@ body{
     font-size: 12px;
     line-height: 1.6em;
     margin:0px;
+    width: auto;
+    
+           
 }
+
 #showcase{
-    background-image: url(farm.jpg);
+    background-image: url( Images/farm.jpg);
     height:100vh;
     background-size: cover;
     
+}
 .box-1 h1{
     
     font-family: Avenir;
@@ -22,14 +28,21 @@ body{
 
 .box-1{
     text-align: center;
-    margin:40px;
+    margin:100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+    
     font-size: 12px;
     padding: 40px;
+    
 }
+
 .box-2{
     text-align: center;
     margin:5px;
     padding: 5px; 
+    
    
 }
   
@@ -60,30 +73,33 @@ body{
 }
 
 
-.block-1{
+.block-1 {
     float: left ;
     width: 16%;
     padding: 5px;
     box-sizing: border-box;
     border: 1px solid #ccc;
     margin: 2%;
+   
+    
 }
-.block-2{
+.block-2 {
     float: left ;
     width: 33.3%;
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
-    margin-top: 100px;
+    margin-top:150px;
 }
 
-.sm_icons{
+.sm_icons {
     float: left;
-    width:21%;
+    width:25%;
     box-sizing: border-box;
-    margin:2%;
-    padding:5px;
+    margin:auto;
+    padding:1px;
     align-content: center;
+    margin-top: 70px;
 }
 .clr{
     
