@@ -5,7 +5,7 @@ body{
     font-family: Avenir;
     font-size: 12px;
     line-height: 1.6em;
-    margin:150px;
+    margin:0px;
     
            
 }
@@ -18,13 +18,14 @@ body{
     font-size: 12px;
     text-transform:uppercase;
     text-align: center;
+    
 }
 
 .box-1{
     text-align: center;
     margin: inherit;
-    margin-left: 150px;
-    margin-right: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
     font-size: 14px;
     padding: 40px;
     
@@ -33,14 +34,12 @@ body{
     
     text-transform: uppercase;
     font-family: Avenir;
-    
-    
     text-align: center;
 }
 
 .box-2{
     text-align: center;
-    margin:inherit;
+    margin:100px;
     padding: 5px; 
     
    
@@ -79,24 +78,26 @@ body{
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
-    margin-top:150px;
+    
+    
 }
 
 .sm_icons {
     float: left;
     width:25%;
     box-sizing: border-box;
-    margin:auto;
+
     padding:1px;
     align-content: center;
-    margin-top: 70px;
+    
 }
 #showcase{
-    background-image: url( Images/farm.jpg);
+    background-image: url(farm.jpg);
     align-content: center;
     height: 100vh;
     background-size:cover;
-    margin-top: 100px;
+    align-content: center;
+    margin-top: 0px;
     
 }
 .clr{
