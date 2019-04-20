@@ -24,8 +24,8 @@ body{
 .box-1{
     text-align: center;
     margin: inherit;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 14px;
     padding: 40px;
     
@@ -39,7 +39,7 @@ body{
 
 .box-2{
     text-align: center;
-    margin:100px;
+    margin:20%;
     padding: 5px; 
     
    
@@ -78,6 +78,7 @@ body{
     padding: 20px;
     box-sizing: border-box;
     text-align: center;
+    margin: 20%;
     
     
 }
