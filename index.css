@@ -1,57 +1,66 @@
 
 body{
-    background-color: darkgreen;
-    color:white;
+    background-color: green;
+    color: whitesmoke;
     font-family: Avenir;
-    font-size: 12px;
+    font: normal 16px;
     line-height: 1.6em;
-    margin:0px;
     
-           
 }
-
-
-.box-1 h1{
+.container{
     
-    font-family: Avenir;
-    font-weight:14px;
+    width: 85%;
+    margin:auto;
+}
+.box-1 h1{
+    font-weight:15px;
     font-size: 12px;
+    font-family: Tahoma;
     text-transform:uppercase;
     text-align: center;
+    text-underline-position: below;
+    border-color: aqua solid;
+    padding-bottom: 15px;
+    border-bottom: 1px yellow solid;
+    
     
 }
 
 .box-1{
     text-align: center;
-    margin: inherit;
-    margin-left: 10%;
-    margin-right: 10%;
     font-size: 14px;
-    padding: 40px;
-    background-color: black;
-    opacity: 0.6;
-    
-    
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    background-color: rgba(6, 7, 86, 0.56);
+    border-bottom: 1px yellow solid;
+   
 }
 .box-2 h2{
     
+    text-transform: uppercase;
     font-family: Avenir;
-    font-weight:14px;
-    font-size: 12px;
-    text-transform:uppercase;
     text-align: center;
-    
 }
 
 .box-2{
-    text-align: center;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 5px; 
-    
    
+    text-align: center;
+    padding:15px; 
 }
-  
+.box-3 h2{
+    
+    text-transform: uppercase;
+    font-family: Avenir;
+    text-align: center;
+}
+
+.box-3{
+   
+    text-align: center;
+    padding:15px; 
+}
 
 .top_logo{
     background-color: yellow;
@@ -61,23 +70,42 @@ body{
     
 }
 
+
+
+
 .block-1 {
     float: left ;
-    width: 16%;
-    padding: 5px;
+    height: 325px;
+    
+    width: 100%;
     box-sizing: border-box;
+    padding: 20px;
     border: 1px solid #ccc;
-    margin: 2%;
-   
+    margin-right: 200px;
+    margin-top: 20px;
+    color: white;
+    
+    
     
 }
+.clr{
+    
+    clear: both;
+    
+}
+
+
 .block-2 {
     float: left ;
-    width: 33.3%;
-    padding: 20px;
+    width: 33%;
+   
+    padding: 2px;
     box-sizing: border-box;
     text-align: center;
-  
+    margin-top: 5%;
+    margin-bottom: 30px;
+    
+   
     
     
 }
@@ -85,18 +113,24 @@ body{
 .sm_icons {
     float: left;
     width:25%;
-    padding:2px;
-    align-content: center;
     box-sizing: border-box;
+    margin-top: 40px;
+    padding:1px;
+    align-content: center;
     
 }
 #showcase{
-    background-image: url( farm.jpg);
+    background-image: url( Images/farm.jpg);
     align-content: center;
-    height: 100vh;
+    height: 250vh;
+    background-position: center;
     background-size:cover;
     align-content: center;
+    width: 100%;
     margin-top: 0px;
+    background-attachment: fixed;
+    opacity: 0.7;
+    
     
     
 }
