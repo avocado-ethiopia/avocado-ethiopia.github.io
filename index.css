@@ -1,5 +1,5 @@
 body{
-    background-color: green;
+    background-color: navajowhite;
     color: whitesmoke;
     font-family: Lato;
     font: normal 18px;
@@ -21,7 +21,7 @@ body{
     font-family: Lato;
     text-transform:uppercase;
     text-align: center;
-    color: white;
+    color: black;
 }
 .box-aboutus{
     text-align: center;
@@ -30,6 +30,7 @@ body{
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
+    color: black;
    
 }
 .box-pages h2{
@@ -42,6 +43,8 @@ body{
     display: flex; 
     border:0.1px solid white;
     padding: 5%;
+    background-color: rgba(0,100,0, 0.2);
+    margin-top: 40%;
     
   
    
@@ -58,7 +61,7 @@ body{
     
 }
 .top_logo{
-    background-color: rgba(255, 255, 0, 0.88);
+   background-color: rgba(0,100,0, 0.2);
     padding: 3%;
    
 }
@@ -75,6 +78,9 @@ body{
     overflow: hidden;
     vertical-align: middle;
     box-sizing: border-box;   
+    background-image: url(farm.jpg);
+    background-position: center;
+    background-size: cover;
     
     
     
@@ -91,7 +97,10 @@ body{
     display: inline-block;
     overflow: hidden;
     vertical-align: middle;
-    box-sizing: border-box;   
+    box-sizing: border-box;  
+    background-image: url(haas%20avocado.jpg);
+    background-position: center;
+    background-size: cover;
    
     
 }
@@ -107,7 +116,10 @@ body{
     display: inline-block;
     overflow: hidden;
     vertical-align: middle;
-    box-sizing: border-box;   
+    box-sizing: border-box; 
+    background-image: url(etfarmaer.jpg);
+    background-position: center;
+    background-size: cover;
    
     
 }
@@ -123,7 +135,10 @@ body{
     display: inline-block;
     overflow: hidden;
     vertical-align: middle;
-    box-sizing: border-box;   
+    box-sizing: border-box; 
+    background-image: url(blog.jpg);
+    background-position: center;
+    background-size: cover;
    
 }
 .block-5 {
@@ -138,7 +153,10 @@ body{
     display: inline-block;
     overflow: hidden;
     vertical-align: middle;
-    box-sizing: border-box;   
+    box-sizing: border-box;
+    background-image: url(girls%20smiling.jpg);
+    background-position: center;
+    background-size: cover;
    
 }
 .clr{
@@ -146,8 +164,8 @@ body{
     clear: both;
     
 }
-#showcase{
-    background-image: url(farm.jpg);
+/*#showcase{
+    background-image: url(Images/farm.jpg);
     align-content: center;
    
     background-position: center;
@@ -158,9 +176,10 @@ body{
    
     background-blend-mode: difference;
     height: 100%;
-    margin-bottom: 0%;   
+    margin-bottom: 0%;  
     
-}
+    
+}*/
 .clr{
     
     clear: both;
