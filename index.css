@@ -4,87 +4,68 @@ body{
     font-family: Avenir;
     font: normal 16px;
     line-height: 1.6em;
-    margin: 0px;
+    margin: 0%;
     
 }
 .container{
     width: 75%;
     margin:auto;    
 }
-.logo{
-    width:100%;
-}
-
 .box-1 h1{
     font-weight:lighter;
     font-size: 24px;
     font-family: Avenir;
     text-transform:uppercase;
     text-align: center;
-    
-
     color: yellow;
-   
-    
-    
-    
 }
 .box-1{
     text-align: center;
     font-size: 14px;
-    padding-top: 100px;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-bottom: 10px;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
     background-color: rgba(6, 7, 100, 0.56);
-   
 }
 .box-2 h2{
-    
     font-weight:lighter;
     font-size: 24px;
     font-family: Avenir;
     text-transform:uppercase;
     text-align: center;
-    
-
     color: yellow;
-   
-    display: inline-block;
-    
+    display: inline-block; 
 }
 .box-2{
-   
     text-align: center;
-    padding:20px; 
-    padding-bottom: 50px;
+    padding:5%; 
+    padding-bottom: 5%;
     background-color: rgba(6, 7, 100, 0.56);
 }
-
 .top_logo{
     background-color: yellow;
-    align-content: center;
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 35px;
+    padding: 3%;
     
 }
 .block-1 {
     
     height: 450px;
-    width: 45%;
-    margin: 20px;
-
-    padding: 10px;
-    border: 0.5px solid yellow;
-    
+    width: 40%;
+    margin: 1%;
+    padding: 1%;
+    border:0.1px solid yellow;
     color: white;
     display: inline-block;
-    
     overflow: hidden;
     vertical-align: middle;
-    box-sizing: border-box;
-
+    box-sizing: border-box;   
+    
+}
+.clr{
+    
+    clear: both;
+    
 }
 #showcase{
     background-image: url(farm.jpg);
@@ -98,7 +79,7 @@ body{
    
     background-blend-mode: difference;
     height: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 0%;   
     
 }
 .clr{
@@ -108,27 +89,28 @@ body{
 }
 .row {
   display: flex;
-    border-top: yellow solid 1px;
+    border-top: yellow solid 0.5px;
    
-    background-color: rgba(6, 7, 2, 0.56);
-    margin-bottom: 0;
+    background-color: rgba(0, 100, 0, 0.56);
+    margin-bottom: 0%;
 }
-
 .column {
    
-    padding: 10px;
-    padding-top: 60px;
-    padding-bottom: 20px;
+    padding: 1%;
+    padding-top: 3%;
+    
+    
     
     margin: auto;
     
 }
-
-.cpyright {
+.p {
     text-align: center;
     font-size: 18px;
-    padding: 30px;
-    background-color: rgba(6, 7, 2, 0.56);
+    
+    padding-bottom: 1%;
+    padding-top: 3%;
+    background-color: rgba(0, 100, 0, 0.56);
 }
 
  
