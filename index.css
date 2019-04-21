@@ -1,24 +1,27 @@
 body{
     background-color: green;
     color: whitesmoke;
-    font-family: Avenir;
-    font: normal 16px;
-    line-height: 1.5em;
+    font-family: Lato;
+    font: normal 18px;
+    line-height: 1.4em;
     margin: 0%;
     
 }
 .container{
     width: 85%;
     margin:auto;
+    text-align: center;
+    
     
 }
 .box-aboutus h1{
-    font-weight:lighter;
+    font-weight:200px;
+    font-stretch:semi-expanded;
     font-size: 24px;
-    font-family: Avenir;
+    font-family: Lato;
     text-transform:uppercase;
     text-align: center;
-    color: yellow;
+    color: white;
 }
 .box-aboutus{
     text-align: center;
@@ -27,23 +30,23 @@ body{
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
-     background-color: rgba(0, 100, 0, 0.3);
-    border-bottom-left-radius: 3%;
-        border-bottom-right-radius: 3%;
-    
+   
 }
 .box-pages h2{
-    font-weight:lighter;
+    font-weight:200px;
     font-size: 20px;
-    font-family: Avenir;
+    font-family: Lato;
     text-transform:uppercase;
     text-align: center;
-    color: yellow;
-    display: inline-block; 
-    border:0.1px solid yellow;
-    padding: 2%;
-    background-color:rgba(0, 100, 0, 0.3);
-    border-radius: 3%;
+    color: white;
+    display: flex; 
+    border:0.1px solid white;
+    padding: 5%;
+    
+  
+   
+   
+   
 
 }
 .box-pages{
@@ -55,9 +58,9 @@ body{
     
 }
 .top_logo{
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 0.88);
     padding: 3%;
-    
+   
 }
 .block-1 {
     height: 300px;
@@ -72,7 +75,7 @@ body{
     overflow: hidden;
     vertical-align: middle;
     box-sizing: border-box;   
-    background-color:rgba(0, 100, 0, 0.3);
+    
     
     
 }
@@ -89,7 +92,7 @@ body{
     overflow: hidden;
     vertical-align: middle;
     box-sizing: border-box;   
-    background-color: rgba(0, 100, 0, 0.3);
+   
     
 }
 .block-3 {
@@ -105,7 +108,7 @@ body{
     overflow: hidden;
     vertical-align: middle;
     box-sizing: border-box;   
-    background-color: rgba(0, 100, 0, 0.3);
+   
     
 }
 .block-4 {
@@ -121,8 +124,7 @@ body{
     overflow: hidden;
     vertical-align: middle;
     box-sizing: border-box;   
-    background-color: rgba(0, 100, 0, 0.3);
-    
+   
 }
 .block-5 {
     height: 300px;
@@ -137,8 +139,7 @@ body{
     overflow: hidden;
     vertical-align: middle;
     box-sizing: border-box;   
-    background-color: rgba(0, 100, 0, 0.3);
-    
+   
 }
 .clr{
     
@@ -175,8 +176,6 @@ body{
     padding-bottom: 1%;
     padding-top: 4%;
     margin:auto;
-   
-    background-color: rgba(0, 100, 0, 0.56);
     margin-bottom: 0%;
     box-sizing: border-box;
 }
@@ -184,6 +183,7 @@ body{
    padding: 1%;
     padding-top: 1%; 
     width:25%;
+    grid-auto-flow: column;
 }
 .copyright {
     text-align: center;
@@ -191,7 +191,7 @@ body{
     
     padding-bottom: 1%;
     padding-top: 1%;
-    background-color: rgba(0, 100, 0, 0.56);
+    
 }
 
  
