@@ -12,16 +12,16 @@ body{
     margin:auto;    
 }
 .box-1 h1{
-    font-weight:15px;
-    font-size: 22px;
+    font-weight:lighter;
+    font-size: 24px;
     font-family: Avenir;
     text-transform:uppercase;
     text-align: center;
-    text-underline-position: below;
+    
+
     color: yellow;
    
-    padding-bottom: 5px;
-    border-bottom: 1px yellow solid;
+    
     
     
 }
@@ -31,22 +31,20 @@ body{
     padding-top: 100px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 10px;
     background-color: rgba(6, 7, 100, 0.56);
-    border-bottom: 1px yellow solid;
    
 }
 .box-2 h2{
     
-    font-weight:15px;
-    font-size: 22px;
+    font-weight:lighter;
+    font-size: 24px;
     font-family: Avenir;
     text-transform:uppercase;
     text-align: center;
-    text-underline-position: below;
+    
+
     color: yellow;
-    font-weight: bold;
-    padding-bottom: 5px;
    
     display: inline-block;
     
@@ -54,8 +52,9 @@ body{
 .box-2{
    
     text-align: center;
-    padding:10px; 
-
+    padding:20px; 
+    padding-bottom: 50px;
+    background-color: rgba(6, 7, 100, 0.56);
 }
 .clr{
     clear: both;
@@ -72,12 +71,10 @@ body{
     
     height: 450px;
     width: 45%;
-    margin: auto;
-    
-    margin-top: 10px;
+    margin: 20px;
 
-    padding: 20px;
-    border: 1px solid yellow;
+    padding: 10px;
+    border: 0.5px solid yellow;
     
     color: white;
     display: inline-block;
@@ -96,7 +93,7 @@ body{
     
 }
 #showcase{
-    background-image: url(farm.jpg);
+    background-image: url(Images/farm.jpg);
     align-content: center;
    
     background-position: center;
@@ -104,6 +101,8 @@ body{
     align-content: center;
     width: 100%;
     background-attachment: fixed;
+   
+    background-blend-mode: difference;
     height: 100%;
     margin-bottom: 0px;
     
@@ -119,25 +118,27 @@ body{
 .row {
   display: flex;
     border-top: yellow solid 1px;
-   margin-top: 100px;
+   
+    background-color: rgba(6, 7, 2, 0.56);
+    margin-bottom: 0;
 }
 
 .column {
    
     padding: 10px;
-    padding-top: 40px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 20px;
     
     margin: auto;
+    
 }
 
 
 .p {
     text-align: center;
     font-size: 18px;
-    padding-bottom: 50px;
+    padding: 30px;
+    background-color: rgba(6, 7, 2, 0.56);
 }
-
- 
 
  
