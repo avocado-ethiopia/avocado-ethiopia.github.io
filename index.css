@@ -10,9 +10,9 @@ body{
 .container{
     width: 85%;
     margin:auto;
-    background-color: rgba(0, 100, 0, 0.3);
+    
 }
-.box-1 h1{
+.box-aboutus h1{
     font-weight:lighter;
     font-size: 24px;
     font-family: Avenir;
@@ -20,7 +20,7 @@ body{
     text-align: center;
     color: yellow;
 }
-.box-1{
+.box-aboutus{
     text-align: center;
     font-size: 14px;
     padding-top: 5%;
@@ -28,9 +28,11 @@ body{
     padding-right: 5%;
     padding-bottom: 5%;
      background-color: rgba(0, 100, 0, 0.3);
+    border-bottom-left-radius: 3%;
+        border-bottom-right-radius: 3%;
     
 }
-.box-2 h2{
+.box-pages h2{
     font-weight:lighter;
     font-size: 20px;
     font-family: Avenir;
@@ -38,8 +40,13 @@ body{
     text-align: center;
     color: yellow;
     display: inline-block; 
+    border:0.1px solid yellow;
+    padding: 2%;
+    background-color:rgba(0, 100, 0, 0.3);
+    border-radius: 3%;
+
 }
-.box-2{
+.box-pages{
     text-align: center;
     font-size: 12px;
     padding:1%; 
@@ -58,12 +65,79 @@ body{
     width: 45%;
     margin: 1%;
     padding: 1%;
-    border:0.1px solid yellow;
+    border-radius: 3%;
+    
     color: white;
     display: inline-block;
     overflow: hidden;
     vertical-align: middle;
     box-sizing: border-box;   
+    background-color:rgba(0, 100, 0, 0.3);
+    
+    
+}
+.block-2 {
+    height: 300px;
+    line-height: 1.5em;
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 3%;
+    
+    color: white;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    box-sizing: border-box;   
+    background-color: rgba(0, 100, 0, 0.3);
+    
+}
+.block-3 {
+    height: 300px;
+    line-height: 1.5em;
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 3%;
+    
+    color: white;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    box-sizing: border-box;   
+    background-color: rgba(0, 100, 0, 0.3);
+    
+}
+.block-4 {
+    height: 300px;
+    line-height: 1.5em;
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 3%;
+    
+    color: white;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    box-sizing: border-box;   
+    background-color: rgba(0, 100, 0, 0.3);
+    
+}
+.block-5 {
+    height: 300px;
+    line-height: 1.5em;
+    width: 45%;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 3%;
+    
+    color: white;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    box-sizing: border-box;   
+    background-color: rgba(0, 100, 0, 0.3);
     
 }
 .clr{
@@ -79,7 +153,7 @@ body{
     background-size:cover;
     align-content: center;
     width: 100%;
-    background-attachment: fixed;
+    background-attachment:fixed;
    
     background-blend-mode: difference;
     height: 100%;
