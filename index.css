@@ -56,9 +56,7 @@ body{
     padding-bottom: 50px;
     background-color: rgba(6, 7, 100, 0.56);
 }
-.clr{
-    clear: both;
-}
+
 .top_logo{
     background-color: yellow;
     align-content: center;
@@ -82,15 +80,7 @@ body{
     overflow: hidden;
     vertical-align: middle;
     box-sizing: border-box;
-    
-  
-    
-    
-}
-.clr{
-    
-    clear: both;
-    
+
 }
 #showcase{
     background-image: url(farm.jpg);
@@ -105,9 +95,6 @@ body{
     background-blend-mode: difference;
     height: 100%;
     margin-bottom: 0px;
-    
-    
-    
     
 }
 .clr{
