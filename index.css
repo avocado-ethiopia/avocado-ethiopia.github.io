@@ -1,34 +1,30 @@
-
 body{
     background-color: green;
     color: whitesmoke;
     font-family: Avenir;
     font: normal 16px;
     line-height: 1.6em;
+    margin: 0px;
     
 }
 .container{
-    
     width: 75%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    
+    margin:auto;    
 }
 .box-1 h1{
     font-weight:15px;
-    font-size: 18px;
+    font-size: 22px;
     font-family: Avenir;
     text-transform:uppercase;
     text-align: center;
     text-underline-position: below;
-    border-color: aqua solid;
+    color: yellow;
+   
     padding-bottom: 5px;
     border-bottom: 1px yellow solid;
     
     
 }
-
 .box-1{
     text-align: center;
     font-size: 14px;
@@ -43,48 +39,27 @@ body{
 .box-2 h2{
     
     font-weight:15px;
-    font-size: 16px;
+    font-size: 22px;
     font-family: Avenir;
     text-transform:uppercase;
     text-align: center;
     text-underline-position: below;
-    color: black;
-    font-weight: lighter;
+    color: yellow;
+    font-weight: bold;
     padding-bottom: 5px;
    
     display: inline-block;
     
 }
-
 .box-2{
    
     text-align: center;
-    padding:15px; 
-    width:100%;
-}
-.box-3 h2{
-    
-    font-weight:15px;
-    font-size: 12px;
-    font-family: Tahoma;
-    text-transform:uppercase;
-    text-align: center;
-    text-underline-position: below;
-    color: yellow;
-    font-weight: lighter;
-    padding-bottom: 5px;
-   
-    
-}
+    padding:10px; 
 
-.box-3{
-   
-    text-align: center;
-    padding:15px; 
-    
-    
 }
-
+.clr{
+    clear: both;
+}
 .top_logo{
     background-color: yellow;
     align-content: center;
@@ -93,16 +68,13 @@ body{
     padding-bottom: 35px;
     
 }
-
-
-
-
 .block-1 {
     
-    height: 250px;
+    height: 450px;
     width: 45%;
+    margin: auto;
     
-    margin-top: 5px;
+    margin-top: 10px;
 
     padding: 20px;
     border: 1px solid yellow;
@@ -112,7 +84,6 @@ body{
     
     overflow: hidden;
     vertical-align: middle;
-    padding-bottom: 20px;
     box-sizing: border-box;
     
   
@@ -124,30 +95,6 @@ body{
     clear: both;
     
 }
-
-.block-2 {
-    float: left ;
-    width: 50%;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-    margin-top: 5%;
-    margin-bottom: 30px;
-}
-
-.sm_icons {
-    float: left;
-    width:25%;
-    box-sizing: border-box;
-    margin-top: 40px;
-    padding:10px;
-    align-content: center;
-}
-
-.categories{
-    
-    
-}
 #showcase{
     background-image: url(farm.jpg);
     align-content: center;
@@ -157,10 +104,8 @@ body{
     align-content: center;
     width: 100%;
     background-attachment: fixed;
-   
-    background-blend-mode: difference;
     height: 100%;
-        margin-bottom: 0px;
+    margin-bottom: 0px;
     
     
     
@@ -171,6 +116,25 @@ body{
     clear: both;
     
 }
+.column {
+    display: inline-block;
+    
+   
+    width: 25%;
+    margin:0 auto;
+   
+    box-sizing: border-box;
+    
+    
+}
+.row {
+    width: 100%;
+    display: inline-block;
+   
+    box-sizing: border-box;
+}
+
+
 
 
  
