@@ -10,6 +10,7 @@ body{
 .container{
     width: 75%;
     margin:0 auto;
+    font-family:Avenir Lato San-serif;
     text-align: center;
 }
 .footer{
