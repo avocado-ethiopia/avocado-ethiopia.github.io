@@ -26,7 +26,7 @@ body{
 .box-aboutus h1{
     font-weight:200px;
     font-stretch:semi-expanded;
-    font-size: 24px;
+    font-size: 1.75em;
     font-family: Lato;
     text-transform:uppercase;
     text-align: center;
@@ -74,7 +74,7 @@ body{
     width: 100%;
     margin: 1%;
     border-radius: 3%;
-    background-image: url(Images/avo_farm%20image.jpg);
+    background-image: url(avo_farm%20image.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
@@ -87,7 +87,7 @@ body{
     width: 100%;
      margin: 1%;
     border-radius: 3%;
-    background-image: url(Images/haas%20avocado.jpg);
+    background-image: url(haas%20avocado.jpg);
     background-position: center;
     background-size: cover;
    
@@ -98,7 +98,7 @@ body{
     width: 100%;
      margin: 1%;
     border-radius: 3%;
-    background-image: url(Images/etfarmaer.jpg);
+    background-image: url(etfarmaer.jpg);
     background-position: center;
     background-size: cover;
    
@@ -109,7 +109,7 @@ body{
     width: 100%;
      margin: 1%;
     border-radius: 3%;
-    background-image: url(Images/girls%20smiling.jpg);
+    background-image: url(girls%20smiling.jpg);
     background-position: center;
     background-size: cover;
    
@@ -120,7 +120,7 @@ body{
     
 }
 #showcase{
-    background-image: url(Images/farm.jpg);
+    background-image: url(farm.jpg);
     align-content: center;
    
     background-position: center;
