@@ -1,18 +1,27 @@
 body{
-    background-color: navajowhite;
+    background-color: darkgreen;
     color: whitesmoke;
     font-family: Lato;
-    font: normal 18px;
+    font: normal 1.5em;
     line-height: 1.4em;
     margin: 0%;
     
 }
 .container{
-    width: 85%;
-    margin:auto;
+    width: 75%;
+    margin:0 auto;
     text-align: center;
-    
-    
+}
+.footer{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
+.top_logo{
+    background-color: yellow;
+    padding: 3%;
 }
 .box-aboutus h1{
     font-weight:200px;
@@ -21,84 +30,64 @@ body{
     font-family: Lato;
     text-transform:uppercase;
     text-align: center;
-    color: black;
+    color: white;
 }
 .box-aboutus{
     text-align: center;
-    font-size: 14px;
-    padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 5%;
-    color: black;
+    padding: 5%;
+    color: white;
    
 }
-.box-pages h2{
-    font-weight:200px;
-    font-size: 20px;
+.pages{
+    display: inline-flex;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.box-pages{
+    display: inline-flex;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding-bottom: 3%;
+   
+}
+.page-1{
+    
+    width: 100%;
+    margin: 1%;
+    border-radius: 3%;
+    font-weight:100px;
     font-family: Lato;
     text-transform:uppercase;
     text-align: center;
     color: white;
-    display: flex; 
     border:0.1px solid white;
-    padding: 5%;
-    background-color: rgba(0,100,0, 0.2);
-    margin-top: 40%;
-    
-  
-   
-   
-   
+    background-color: rgba(0,100,0, 0.3);
+    overflow:hidden;
+    font-size: 0.7em;
+    padding;10%;
+}
 
-}
-.box-pages{
-    text-align: center;
-    font-size: 12px;
-    padding:1%; 
-    padding-bottom: 1%;
-   
-    
-}
-.top_logo{
-   background-color: rgba(0,100,0, 0.2);
-    padding: 3%;
-   
-}
 .block-1 {
     height: 300px;
-    line-height: 1.5em;
-    width: 45%;
+    width: 100%;
     margin: 1%;
-    padding: 1%;
     border-radius: 3%;
-    
-    color: white;
-    display: inline-block;
-    overflow: hidden;
-    vertical-align: middle;
-    box-sizing: border-box;   
-    background-image: url(farm.jpg);
+    background-image: url(Images/avo_farm%20image.jpg);
     background-position: center;
     background-size: cover;
+    background-attachment: scroll;
     
     
     
 }
 .block-2 {
-    height: 300px;
-    line-height: 1.5em;
-    width: 45%;
-    margin: 1%;
-    padding: 1%;
+   height: 300px;
+    width: 100%;
+     margin: 1%;
     border-radius: 3%;
-    
-    color: white;
-    display: inline-block;
-    overflow: hidden;
-    vertical-align: middle;
-    box-sizing: border-box;  
-    background-image: url(haas%20avocado.jpg);
+    background-image: url(Images/haas%20avocado.jpg);
     background-position: center;
     background-size: cover;
    
@@ -106,55 +95,21 @@ body{
 }
 .block-3 {
     height: 300px;
-    line-height: 1.5em;
-    width: 45%;
-    margin: 1%;
-    padding: 1%;
+    width: 100%;
+     margin: 1%;
     border-radius: 3%;
-    
-    color: white;
-    display: inline-block;
-    overflow: hidden;
-    vertical-align: middle;
-    box-sizing: border-box; 
-    background-image: url(etfarmaer.jpg);
+    background-image: url(Images/etfarmaer.jpg);
     background-position: center;
     background-size: cover;
    
     
-}
-.block-4 {
-    height: 300px;
-    line-height: 1.5em;
-    width: 45%;
-    margin: 1%;
-    padding: 1%;
-    border-radius: 3%;
-    
-    color: white;
-    display: inline-block;
-    overflow: hidden;
-    vertical-align: middle;
-    box-sizing: border-box; 
-    background-image: url(blog.jpg);
-    background-position: center;
-    background-size: cover;
-   
 }
 .block-5 {
     height: 300px;
-    line-height: 1.5em;
-    width: 45%;
-    margin: 1%;
-    padding: 1%;
+    width: 100%;
+     margin: 1%;
     border-radius: 3%;
-    
-    color: white;
-    display: inline-block;
-    overflow: hidden;
-    vertical-align: middle;
-    box-sizing: border-box;
-    background-image: url(girls%20smiling.jpg);
+    background-image: url(Images/girls%20smiling.jpg);
     background-position: center;
     background-size: cover;
    
@@ -164,7 +119,7 @@ body{
     clear: both;
     
 }
-/*#showcase{
+#showcase{
     background-image: url(Images/farm.jpg);
     align-content: center;
    
@@ -176,41 +131,51 @@ body{
    
     background-blend-mode: difference;
     height: 100%;
-    margin-bottom: 0%;  
+    margin-bottom: 0 auto;
     
     
-}*/
-.clr{
-    
-    clear: both;
     
 }
-.row {
-  display:inline-flex;
-    height: 3%;
-    border-top: yellow solid 0.5px;
+.icons_line {
+    display: inline-flex;
+    padding-top: 5%;
     
+    border-top: yellow solid 0.5px;
     width: 100%;
-    padding: 15%;
-    padding-bottom: 1%;
-    padding-top: 4%;
-    margin:auto;
-    margin-bottom: 0%;
+        
+    margin: 0 auto;
     box-sizing: border-box;
 }
-.icon {
-   padding: 1%;
-    padding-top: 1%; 
-    width:25%;
-    grid-auto-flow: column;
+.facebookicon{
+    margin: 0 auto;
 }
+.instagramicon{
+   
+    
+    margin: 0 auto;  
+}
+.youtubeicon{
+    
+    margin: 0 auto;
+}
+.twittericon{
+    
+    margin: 0 auto;
+    
+    
+}
+
 .copyright {
     text-align: center;
-    font-size: 12px;
+    font-size: 0.4em;
     
     padding-bottom: 1%;
     padding-top: 1%;
     
 }
+
+
+
+
 
  
