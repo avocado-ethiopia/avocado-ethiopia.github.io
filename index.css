@@ -173,6 +173,13 @@ body{
     padding-top: 1%;
     
 }
+@media (min-width: 600px){
+    
+    p{
+        font-size:1.6em;
+    
+    }
+}
 
 
 
