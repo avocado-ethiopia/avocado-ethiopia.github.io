@@ -1,47 +1,62 @@
 body{
     background-color: darkgreen;
     color: whitesmoke;
-    font-family:Avenir Lato San-serif;
-    font: normal 1em;
-    line-height: 1em;
+    font-family: Avenir;
+    font: normal 0.8em;
+    line-height: 1.4em;
     margin: 0%;
     
 }
 .container{
     width: 75%;
     margin:0 auto;
-    font-family:Avenir Lato San-serif;
     text-align: center;
+}
+a{
+    color: yellow;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+a:active{
+    color: dodgerblue;
+}
+a:visited{
+    color:azure;
 }
 .footer{
     width: 80%;
     margin: auto;
     text-align: center;
 }
-
-
 .top_logo{
     background-color: yellow;
     padding: 3%;
 }
 .box-aboutus h1{
-    font-weight:200px;
+    font-weight:100;
     font-stretch:semi-expanded;
-    font-size: 1.75em;
-    font-family: Lato;
+    font-size: 24px;
+    font-family: Avenir;
     text-transform:uppercase;
     text-align: center;
-    color: white;
+    color: yellow;
 }
 .box-aboutus{
     text-align: center;
-    padding: 5%;
+    padding: 1%;
+    margin: 4%;
+    font-family: Avenir;
     color: white;
+    border: 1px yellow solid;
+    border-radius: 15px;
    
 }
 .pages{
     display: inline-flex;
     width: 100%;
+    padding: 2%;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -59,23 +74,21 @@ body{
     margin: 1%;
     border-radius: 3%;
     font-weight:100px;
-    font-family: Lato;
+    font-size:2em;
+    font-family: Avenir;
     text-transform:uppercase;
     text-align: center;
-    color: white;
-    border:0.1px solid white;
-    background-color: rgba(0,100,0, 0.3);
+    border:0.1px solid yellow;
+    background-color: rgba(0,100,0, 0.6);
     overflow:hidden;
     font-size: 0.7em;
-    padding;10%;
 }
-
 .block-1 {
     height: 300px;
     width: 100%;
     margin: 1%;
-    border-radius: 3%;
-    background-image: url(avo_farm%20image.jpg);
+    border-radius: 50%;
+    background-image: url(Images/avo_farm%20image.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: scroll;
@@ -87,8 +100,8 @@ body{
    height: 300px;
     width: 100%;
      margin: 1%;
-    border-radius: 3%;
-    background-image: url(haas%20avocado.jpg);
+    border-radius: 50%;
+    background-image: url(Images/haas%20avocado.jpg);
     background-position: center;
     background-size: cover;
    
@@ -97,9 +110,9 @@ body{
 .block-3 {
     height: 300px;
     width: 100%;
-     margin: 1%;
-    border-radius: 3%;
-    background-image: url(etfarmaer.jpg);
+    margin: 1%;
+    border-radius: 50%;
+    background-image: url(Images/etfarmaer.jpg);
     background-position: center;
     background-size: cover;
    
@@ -109,8 +122,8 @@ body{
     height: 300px;
     width: 100%;
      margin: 1%;
-    border-radius: 3%;
-    background-image: url(girls%20smiling.jpg);
+    border-radius: 50%;
+    background-image: url(Images/girls%20smiling.jpg);
     background-position: center;
     background-size: cover;
    
@@ -121,31 +134,31 @@ body{
     
 }
 #showcase{
-    background-image: url(farm.jpg);
+    background-image: url(Images/farm.jpg);
     align-content: center;
    
     background-position: center;
     background-size:cover;
     align-content: center;
     width: 100%;
-    background-attachment:fixed;
-   
-    background-blend-mode: difference;
     height: 100%;
+    background-attachment:fixed;
     margin-bottom: 0 auto;
     
     
     
 }
+
 .icons_line {
     display: inline-flex;
-    padding-top: 5%;
+    padding-top: 3%;
     
     border-top: yellow solid 0.5px;
     width: 100%;
         
     margin: 0 auto;
     box-sizing: border-box;
+    
 }
 .facebookicon{
     margin: 0 auto;
@@ -165,7 +178,6 @@ body{
     
     
 }
-
 .copyright {
     text-align: center;
     font-size: 0.4em;
@@ -177,8 +189,7 @@ body{
 @media (min-width: 600px){
     
     p{
-        font-size:1.25em;
-        font-weight: normal;
+        font-size:1em;
         line-height: 1.2em;
     
     }
