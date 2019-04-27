@@ -46,7 +46,7 @@ a:visited{
     text-align: center;
 }
 .top_logo{
-    background-color: yellow;
+    background-color: rgba(254, 241, 96, 0.7)
     padding: 3%;
 }
 .intro_texts h1{
