@@ -133,20 +133,20 @@ a:visited{
     clear: both;
     
 }
-#showcase{
-    background-image: url(farm.jpg);
-    align-content: center;
-   
-    background-position: center;
-    background-size:cover;
-    align-content: center;
-    width: 100%;
-    height: 100%;
-    background-attachment:fixed;
-    margin-bottom: 0 auto;
-    
-    
-    
+body:before {
+  content: "";
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+  background: url(Images/farm.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .icons_line {
