@@ -2,8 +2,8 @@ body{
     background-color: darkgreen;
     color: whitesmoke;
     font-family: Avenir;
-    font: normal 0.8em;
-    line-height: 1.4em;
+    font: normal 0.6em;
+    line-height: 1em;
     margin: 0%;
     
 }
@@ -16,7 +16,7 @@ body:before {
   width: 100%;
   height: 100%;
   z-index: -10;
-  background: url(farm.jpg) no-repeat center center;
+  background: url(Images/farm.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -46,13 +46,13 @@ a:visited{
     text-align: center;
 }
 .top_logo{
-    background-color: yellow;
-    padding: 1%;
+    background-color:rgba(255, 255, 0, 0.73);
+    padding: 0.5%;
 }
 .intro_texts h1{
     font-weight:100;
     font-stretch:semi-expanded;
-    font-size: 1.2em;
+    font-size: 1em;
     font-family: Avenir;
     text-transform:uppercase;
     text-align: center;
@@ -66,6 +66,8 @@ a:visited{
     margin-top: 0%;
     box-sizing: border-box;
     overflow: hidden;
+    margin-bottom: 2%;
+    font-size: 0.8em;
     
     
 }
@@ -100,7 +102,6 @@ a:visited{
     border-radius: 15px;
     
 }
-
 .box-ourpartners{
     width: 100%;
     overflow: hidden;
@@ -135,31 +136,30 @@ a:visited{
    
 }
 .page-1{
-    
     width: 100%;
     margin: 1%;
     border-radius: 3%;
     font-weight:100px;
-    font-size:2em;
+    font-size:0.8em;
     font-family: Avenir;
     text-transform:uppercase;
     text-align: center;
     border:0.1px solid yellow;
     background-color: rgba(0,100,0, 0.6);
     overflow:hidden;
-    font-size: 0.7em;
+    padding: 0.1%;
+    
+    
 }
 .block-1 {
     height: 13em;
     width: 100%;
     margin: 1%;
     border-radius: 50%;
-    background-image: url(avo_farm%20image.jpg);
+    background-image: url(Images/avo_farm%20image.jpg);
     background-position: center;
     background-size: cover;
-    background-attachment: scroll;
-    
-    
+    background-attachment: scroll; 
     
 }
 .block-2 {
@@ -167,10 +167,9 @@ a:visited{
     width: 100%;
      margin: 1%;
     border-radius: 50%;
-    background-image: url(haas%20avocado.jpg);
+    background-image: url(Images/haas%20avocado.jpg);
     background-position: center;
     background-size: cover;
-   
     
 }
 .block-3 {
@@ -178,7 +177,7 @@ a:visited{
     width: 100%;
     margin: 1%;
     border-radius: 50%;
-    background-image: url(etfarmaer.jpg);
+    background-image: url(Images/etfarmaer.jpg);
     background-position: center;
     background-size: cover;
    
@@ -189,7 +188,7 @@ a:visited{
     width: 100%;
     margin: 1%;
     border-radius: 50%;
-    background-image: url(girls%20smiling.jpg);
+    background-image: url(Images/girls%20smiling.jpg);
     background-position: center;
     background-size: cover;
    
@@ -199,8 +198,6 @@ a:visited{
     clear: both;
     
 }
-
-
 .icons_line {
     display: inline-flex;
     padding-top: 3%;
@@ -226,7 +223,8 @@ a:visited{
 }
 .twittericon{
     
-    margin: 0 auto;  
+    margin: 0 auto;
+    
     
 }
 .copyright {
