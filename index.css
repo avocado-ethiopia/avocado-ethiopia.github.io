@@ -7,7 +7,7 @@ body{
     margin: 0%;
     
 }
-body:before {
+/*body:before {
   content: "";
   display: block;
   position: fixed;
@@ -21,7 +21,7 @@ body:before {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
+}*/
 .container{
     width: 75%;
     margin:0 auto;
