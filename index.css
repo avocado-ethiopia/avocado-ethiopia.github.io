@@ -7,7 +7,7 @@ body{
     margin: 0%;
     
 }
-/*body:before {
+body:before {
   content: "";
   display: block;
   position: fixed;
@@ -21,7 +21,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}*/
+}
 .container{
     width: 75%;
     margin:0 auto;
@@ -73,7 +73,7 @@ a:visited{
 }
 .box-aboutus{
     overflow: hidden;
-    height: 300px;
+    height: 20em;
     text-align: center;
     background-color: rgba(0,100,0, 0.6);
     width: 100%;
@@ -90,7 +90,7 @@ a:visited{
 .box-Ourgoal{
     width: 100%;
      overflow: hidden;
-    height: 300px;
+    height: 20em;
     text-align: center;
     background-color: rgba(0,100,0, 0.6);
     padding: 1%;
@@ -105,7 +105,7 @@ a:visited{
 .box-ourpartners{
     width: 100%;
     overflow: hidden;
-    height: 300px;
+    height: 20em;
     text-align: center;
     background-color: rgba(0,100,0, 0.6);
     padding: 1%;
@@ -230,6 +230,8 @@ a:visited{
 .copyright {
     text-align: center;
     font-size: 0.4em;
+    margin-bottom:1%;
+    margin-top: 1%;
     
     padding-bottom: 1%;
     padding-top: 1%;
