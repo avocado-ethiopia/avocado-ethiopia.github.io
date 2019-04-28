@@ -5,6 +5,8 @@ body{
     font: normal 0.6em;
     line-height: 1em;
     margin: 0%;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
     
 }
 body:before {
@@ -29,6 +31,8 @@ body:before {
 }
 .mission{
     width: 100%;
+    text-shadow: 1px 1px 2px black;
+  
     font-weight:600;
     font-stretch:semi-expanded;
     font-size: 2.2em;
@@ -83,7 +87,8 @@ a:visited{
     box-sizing: border-box;
     overflow: hidden;
     margin-bottom: 2%;
-    font-size: 0.8em;    
+    font-size: 0.8em;
+     
 }
 .box-aboutus{
     overflow: hidden;
@@ -220,12 +225,13 @@ a:visited{
     padding-top: 3%;
     
     
-    border-top: yellow solid 0.5px;
+   
     width: 100%;
         
     margin: 0 auto;
     box-sizing: border-box;
     margin-top: 5%;
+    margin-bottom: 3%;
     
 }
 .facebookicon{
@@ -246,15 +252,6 @@ a:visited{
     
     
 }
-.copyright {
-    text-align: center;
-    font-size: 0.4em;
-    
-    padding-bottom: 1%;
-    padding-top: 1%;
-    margin-top:3%;
-    
-}
 .join{
    
     
@@ -262,7 +259,7 @@ a:visited{
 }
 .newsletter{
     width 100%;
-    background-color: rgba(0,100,0, 0.6);
+   
     text-align: center;
     font-size: 1.2em;
     color: yellow;
@@ -274,31 +271,51 @@ a:visited{
     
     padding-top: 1%;
     margin-top:4%;
-   padding: 1%;
+    padding: 1%;
     padding-bottom: 4%;
     
     
 }
-form input[type="email"]
-{
+.links{
+    width:100%;
+    display: inline-flex;
+    border-top: 0.1px yellow solid;
+    border-bottom: 0.1px yellow solid;
+    text-align: center;
+    padding: 0%;
+    text-transform: capitalize;
+    font-size: 1em;
+    list-style: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+}
+.fotter_links{
+    margin-top: 2%;
+     margin-bottom: 2%;
+    width:20%;
+    padding:0.1%;
+    text-align: center;
+}
+
+
+form input[type=email]{
+   
+    padding: 1% 20%;
+    box-sizing: border-box;
     
     
-    width; 100%;
-    padding: 1%;
-    padding-right : 40%;
-    background-color: yellow;
-    border: 0.1px darkgreen solid;
+    border: 2px solid yellow;
+    border-radius: 4px;
     
     
 }
-form input[type="submit"]
-{
+form input[type=submit]{
+    padding: 1% ;
+    border: 2px solid yellow;
+    border-radius: 4px;
+    margin-top: 2%;
     
-   
-   
-    width; 100%;
-    padding: 1%;
-    background-color: yellow;
     color: darkgreen;
     border: 0.1px darkgreen solid;
     
@@ -307,8 +324,12 @@ form input[type="submit"]
     
     
 }
-
-
+.copyright{
+    width: 100%;
+    text-align:center;
+    margin: 0%;
+   
+}
 @media (min-width: 600px){
     
     p{
