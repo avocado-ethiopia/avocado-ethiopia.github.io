@@ -58,11 +58,6 @@ a:active{
 a:visited{
     color:azure;
 }
-.footer{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-}
 .top_logo{
     background-color:rgba(255, 255, 0, 0.73);
     padding: 0.5%;
@@ -78,6 +73,8 @@ a:visited{
     color: yellow;
 }
 .intro_texts{
+    height: 30vw;
+    
     display: inline-flex;
     width: 80%;
     margin:  10%;
@@ -92,10 +89,9 @@ a:visited{
 }
 .box-aboutus{
     overflow: hidden;
-    height: 20em;
     text-align: center;
     background-color: rgba(0,100,0, 0.6);
-    width: 100%;
+   width: 33.33%;
     padding: 1%;
     font-size: 1em;
     margin: 1%;
@@ -107,10 +103,9 @@ a:visited{
     
 }
 .box-Ourgoal{
-    box-shadow: black;
-    width: 100%;
-     overflow: hidden;
-    height: 20em;
+
+    width: 33.33%;
+    overflow: hidden;
     text-align: center;
     background-color: rgba(0,100,0, 0.6);
     padding: 1%;
@@ -123,9 +118,8 @@ a:visited{
     
 }
 .box-ourpartners{
-    width: 100%;
+    width: 33.33%;
     overflow: hidden;
-    height: 20em;
     text-align: center;
     background-color: rgba(0,100,0, 0.6);
     padding: 1%;
@@ -137,29 +131,10 @@ a:visited{
     border-radius: 15px;
    
 }
-.pages{
-    display: inline-flex;
-    width: 100%;
-    padding: 0.1%;
-    font-size: 1em;
-    padding-top: 0%;
-    margin-top: 0%;
-    box-sizing: border-box;
-    overflow: hidden;
-}
-.box-pages{
-    display: inline-flex;
-    width: 100%;
-    box-sizing: border-box;
-    overflow: hidden;
-    padding-bottom: 3%;
-    margin-bottom:5%;
-    margin-top: 5%
-   
-}
+
 .page-1{
     width: 100%;
-    margin: 0.2%;
+    
     border-radius: 3%;
     font-weight:100px;
     font-size:0.8em;
@@ -170,13 +145,27 @@ a:visited{
     background-color: rgba(0,100,0, 0.6);
     overflow:hidden;
     padding: 0.1%;
+    margin-top: 100%;
     
     
 }
-.block-1 {
-    height: 13em;
-    width: 100%;
+.box-pages{
+   
+	height: 20vw;
+    
+    display: inline-flex;
+    position:relative;
+    width:100%;
     margin: 1%;
+    
+   
+}
+.block-1 {
+    width: 25%;
+   
+    position:relative;
+    margin: 1%;
+    
     border-radius: 50%;
     background-image: url(avo_farm%20image.jpg);
     background-position: center;
@@ -185,9 +174,13 @@ a:visited{
     
 }
 .block-2 {
-   height: 13em;
-    width: 100%;
-     margin: 1%;
+    width: 25%;
+    margin: 1%;
+    
+    
+     
+    position:relative;
+   
     border-radius: 50%;
     background-image: url(haas%20avocado.jpg);
     background-position: center;
@@ -195,9 +188,13 @@ a:visited{
     
 }
 .block-3 {
-    height: 13em;
-    width: 100%;
-    margin: 1%;
+    
+   
+   width: 25%;
+    
+    position:relative;
+   margin: 1%;
+    
     border-radius: 50%;
     background-image: url(etfarmaer.jpg);
     background-position: center;
@@ -205,10 +202,13 @@ a:visited{
    
     
 }
-.block-5 {
-    height: 13em;
-    width: 100%;
+.block-4 {
+    width: 25%;
+   
+    position:relative;
+   
     margin: 1%;
+    
     border-radius: 50%;
     background-image: url(girls%20smiling.jpg);
     background-position: center;
@@ -220,18 +220,20 @@ a:visited{
     clear: both;
     
 }
+.footer{
+    width:100%;
+    background-color: rgba(0,100,0, 0.6);
+    text-align: center;
+}
 .icons_line {
     display: inline-flex;
-    padding-top: 3%;
-    
-    
-   
-    width: 100%;
-        
+    padding-top: 1.5%;
+    padding-bottom: 1%;
+    width: 60%;
     margin: 0 auto;
     box-sizing: border-box;
-    margin-top: 5%;
-    margin-bottom: 3%;
+   
+    
     
 }
 .facebookicon{
@@ -279,8 +281,6 @@ a:visited{
 .links{
     width:100%;
     display: inline-flex;
-    border-top: 0.1px yellow solid;
-    border-bottom: 0.1px yellow solid;
     text-align: center;
     padding: 0%;
     text-transform: capitalize;
@@ -291,14 +291,14 @@ a:visited{
     
 }
 .fotter_links{
-    margin-top: 2%;
-     margin-bottom: 2%;
+    
+    margin-top: 1%;
+    margin-bottom: 1%;
     width:20%;
     padding:0.1%;
     text-align: center;
+    border-left: 0.1em yellow solid;
 }
-
-
 form input[type=email]{
    
     padding: 1% 20%;
@@ -327,7 +327,9 @@ form input[type=submit]{
 .copyright{
     width: 100%;
     text-align:center;
+    font-size: 0.3em;
     margin: 0%;
+    padding-bottom: 1%;
    
 }
 @media (min-width: 600px){
@@ -338,21 +340,20 @@ form input[type=submit]{
     
     }
 }
-@media (max-width: 800px){
+@media (max-width: 600px){
     
     p{
-        font-size:0.8em;
+        font-size:0.9em;
         line-height: 1.2em;
     
     }
-    
-}
-
-@media (max-width: 800px){
-    
-    h1{
-        font-size: 0.8em;
-        font-weight: lighter;
+    .intro_texts{
+        width:210vw;
+        height:115vw;
+        overflow: hidden;
+        display:block;
+      
+        align-content: center;
     }
     
 }
